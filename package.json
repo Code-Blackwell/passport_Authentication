@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "LeChristopher J. Blackwell <CodeBlackwell@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "1.15.0",
+    "cors": "^2.8.4",
     "express": "4.13.4",
     "jwt-simple": "0.5.0",
     "mongoose": "4.4.10",
